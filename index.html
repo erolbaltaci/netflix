@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">NET<span>FLIX</span></h1>
+
+      <h3 class="description">
+        Thank you for signing up at Netflix. Tell us more about yourself.
+      </h3>
+
+      <form>
+
+        <div class="box box-input">
+          <label >Name</label>
+          <input type="text" placeholder="Enter Your Name"/>
+        </div>
+
+        <div class="box box-input">
+          <label>Age</label>
+          <input type="number" placeholder="Age"/>
+        </div>
+
+        <div class="box box-input">
+            <label>E-mail</label>
+            <input type="number" placeholder="example@netflix.com" />
+          </div>
+
+          <div class="box box-input">
+            <label for="">Content Type</label>
+           <select name="" id="">
+            <option value="">Series</option>
+            <option value="">Movie</option>
+           </select>
+
+          </div>
+
+          <div class="box box-radio">
+            <label> Movie type</label><br>
+            <label for="first-check"><input type="checkbox" id="first-check" name="movie1" value="Comedy">
+              Comedy</label><br>
+            <label><input type="checkbox" id="second-check" name="movie2" value="Action">
+              Action</label><br>
+            <label ><input type="checkbox" id="third-check" name="movie3" value="Romance" checked="">
+              Romance</label><br>
+          </div>
+
+          <div class="box box-radio">
+            <label id="radiobtn">Gender</label><br>
+            <label><input type="radio" name="gender" value="male">Male</label><br>
+            <label><input type="radio" name="gender" value="female">Female</label><br>
+            <label><input type="radio" name="gender" value="other" checked="">Other</label><br>
+          </div>
+
+          <div class="box box-input ">
+            <label >Feedback</label><br>
+            <textarea name="feedback" cols="57" rows="7" placeholder="Enter Your Comment" style="resize: none"></textarea>
+          </div>
+
+          <button type="submit">SEND</button>
+
+      </form>
+    </div>
+  </body>
+</html>
